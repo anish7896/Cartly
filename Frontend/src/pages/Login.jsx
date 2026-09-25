@@ -8,7 +8,7 @@ import { useState, useContext } from "react";
 import { AuthContext } from "../context/authContext";
 import axios from "axios";
 
-import { auth, provider } from "../utils/Firebase";
+import { auth, provider } from "../utils/Firebase.js";
 import { signInWithPopup } from "firebase/auth";
 
 import { UserContext } from "../context/UserContext";
