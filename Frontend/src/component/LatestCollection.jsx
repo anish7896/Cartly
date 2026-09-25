@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from 'react'
 import Title from './Title'
 import { shopDataContext } from '../context/ShopContext'
-import Card from './Card'
+import Card from "./card";
 
 function LatestCollection() {
     let {products} = useContext(shopDataContext)
