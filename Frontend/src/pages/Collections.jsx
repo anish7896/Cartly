@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { FiSearch, FiChevronDown, FiX } from "react-icons/fi";
 
 import { shopDataContext } from "../context/ShopContext";
-import Card from "../component/Card";
+import Card from "../component/card";
 
 
 function Collections() {
