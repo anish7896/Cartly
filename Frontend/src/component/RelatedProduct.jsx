@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { shopDataContext } from "../context/ShopContext";
-import Card from "./Card";
+import Card from "./card";
 
 function RelatedProduct({ productData }) {
 
