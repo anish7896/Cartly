@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 app.use(cors({
-    origin: ["https://cartly-frontend-qvyy.onrender.com", "http://localhost:5174"],
+    origin: ["https://cartly-frontend-qvyy.onrender.com", "https://cartly-admin.onrender.com"],
     credentials: true
 }));
 
