@@ -3,7 +3,7 @@ import { createContext } from "react";
 export const AuthContext = createContext();
 
 function AuthProvider({ children }) {
-    const serverUrl = "http://localhost:8000";
+    const serverUrl = "https://cartly-backend-yc2m.onrender.com";
 
     return (
         <AuthContext.Provider value={{ serverUrl }}>
